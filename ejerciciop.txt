@@ -1,4 +1,7 @@
 // una supermejora
+/*
+	Aun mejor
+*/
 class Moneda{
 	private double euro;
 	private double dolar;
