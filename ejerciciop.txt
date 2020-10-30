@@ -1,3 +1,4 @@
+// una supermejora
 class Moneda{
 	private double euro;
 	private double dolar;
