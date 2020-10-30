@@ -1,0 +1,34 @@
+class Moneda{
+	private double euro;
+	private double dolar;
+	
+public Moneda(double n){
+	this.euro=n;
+	this.dolar=n;
+}
+	
+	public double valordolar = 1.19;
+	
+	public double dolaraEuro(){
+	return this. valordolar*euro;
+	}
+	
+
+	public double valoreuro = 0.84;
+	
+	public double euroaDolar(){
+	return this. valoreuro*dolar;
+	}
+	
+	
+}
+public class convertirMonedas {
+   public static void main(String[] arg){
+        Moneda n1 = new Moneda(4);
+		Moneda n2 = new Moneda(2);
+       //Imprimo su valor doble
+       System.out.println("Valor actual: "+n1.dolaraEuro());
+		System.out.println("Pon el valor :"+n2.euroaDolar());
+       
+   }
+}
